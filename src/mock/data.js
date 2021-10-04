@@ -2,26 +2,29 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Shawn\'s Portfolio', // e.g: 'Name | Developer'
+  title: "Shawn's Portfolio", // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is ',
+  name: 'Shawn Guerra-Bautista.',
+  subtitle: 'I am a Software Engineer graduate at Concordia University.',
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: '',
+  paragraphOne:
+    'My name is Shawn Guerra-Bautista, and I am a recent graudate in Software Engineering with various academic projects.',
+  paragraphTwo:
+    "My primary programming language is Java, and I create software using object-oriented design. I'm a hard working invidual, and determined to find solutions to problems. I enjoy problem solving as they remind me of puzzle games.",
+  paragraphThree:
+    'I am currently seeking for a job as a software developer of any type (e.g. web/mobile/pc/game).',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
