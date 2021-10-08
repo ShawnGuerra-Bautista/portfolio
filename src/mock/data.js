@@ -105,7 +105,7 @@ export const projectsData = [
     title: 'Library Catalog',
     date: 'Aug 2018 – Dec 2018',
     info: 'A website to manage inventory and users of a library catalog system',
-    info2: 'Angular, MySQL, and Spring (Java)',
+    info2: 'Angular, MySQL, bootstrap, and Spring (Java)',
     url: 'https://github.com/kevin-tan/LibraryCatalog',
     doc: '', // if no doc, the button will not show up
   },
@@ -115,7 +115,7 @@ export const projectsData = [
     title: 'Huston Answers',
     date: 'Jan 2018 – Apr 2018',
     info: 'A Q&A website that allows users to ask questions (create a post) and give answers to them (reply to a post).',
-    info2: 'Angular, MySQL, and Spring (Java)',
+    info2: 'Angular, MySQL, bootstrap, and Spring (Java)',
     url: 'https://github.com/kevin-tan/Q-AWebApplication',
     doc: '', // if no doc, the button will not show up
   },
@@ -124,9 +124,28 @@ export const projectsData = [
 export const skillsData = [
   {
     id: nanoid(),
-    name: 'Java',
-    icon: '',
-    level: '',
+    type: 'Programming Language',
+    skillNameList: ['Java', 'SQL', 'HTML/CSS', 'JavaScript', 'Python'],
+  },
+  {
+    id: nanoid(),
+    type: 'Framework',
+    skillNameList: ['Spring', 'Angular', 'React'],
+  },
+  {
+    id: nanoid(),
+    type: 'Other',
+    skillNameList: ['Git (Github)', 'PostgreSQL', 'Firebase', 'JUnit/Mockito', 'UML'],
+  },
+  {
+    id: nanoid(),
+    type: 'Operating System (OS)',
+    skillNameList: [
+      'POP_OS! (Debian + Ubuntu based)',
+      'Ubuntu (Debian-based)',
+      'Mangaro (Arch-based)',
+      'Windows',
+    ],
   },
 ];
 
