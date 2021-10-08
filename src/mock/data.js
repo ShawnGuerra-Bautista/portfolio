@@ -17,13 +17,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'profile.jpg',
   paragraphOne:
     'My name is Shawn Guerra-Bautista, and I am a recent graudate in Software Engineering with various academic projects.',
   paragraphTwo:
     "My primary programming language is Java, and I create software using object-oriented design. I'm a hard working invidual, and determined to find solutions to problems. I enjoy problem solving as they remind me of puzzle games.",
-  paragraphThree:
-    'I am currently seeking for a job as a software developer of any type (e.g. web/mobile/pc/game).',
+  paragraphThree: 'I am currently seeking for a job as a software developer/engineer.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -31,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'Big Owl - Capstone Project',
     date: 'Sep 2020 – Apr 2021',
     info: 'An Android based app that automate the attendance of users at a given time and location similar to a clock-in clock-out system',
@@ -41,7 +40,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'Python Questions data set',
     date: 'Mar 2020 – Apr 2020',
     info: 'Created a document-oriented database, Couchbase (with SQL-like queries), using an existing data set, and then writing several queries for it.',
@@ -51,7 +50,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'MovieLens SQL Queries',
     date: 'Jan 2020 – Feb 2020',
     info: 'A small project involving the creation of SQL queries to obtain the desired data from a rational database.',
@@ -61,7 +60,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'Mini Naïve Bayes Classifier',
     date: 'Nov 2019',
     info: 'A trained AI (on a small data set) which classifies whether a text has a negative or positive connotation using Naïve Bayes classifier',
@@ -71,7 +70,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'X-rudder',
     date: 'Oct 2019 – Nov 2019',
     info: 'A 2-player game with an AI designed with a heuristic function and a Minimax algorithm.',
@@ -81,7 +80,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'HTTP Client/Server',
     date: 'Sep 2019 – Oct 2019',
     info: 'A HTTP client and server software using TCP/UDP protocols to replicate the behaviour of HTTP requests/responses.',
@@ -91,7 +90,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'K9Mail - Mini Capstone Project',
     date: 'Jan 2019 – Apr 2019',
     info: 'A mini capstone project that involves in update and create new features of an existing open source Android based application called K9Mail.',
@@ -101,7 +100,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'Library Catalog',
     date: 'Aug 2018 – Dec 2018',
     info: 'A website to manage inventory and users of a library catalog system',
@@ -111,7 +110,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    // img: '',
     title: 'Huston Answers',
     date: 'Jan 2018 – Apr 2018',
     info: 'A Q&A website that allows users to ask questions (create a post) and give answers to them (reply to a post).',
